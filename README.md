@@ -27,6 +27,7 @@ After running you will need to at least do the following
 1. Ruby - Installs [rbenv](https://github.com/rbenv/rbenv), ruby 2.4.x and bundler
 1. Java - Installs Java 1.8
 1. Node - Installs Node (and npm)
+1. PSQL - Installs Postgres, and sets the service to start at login
 
 ### Editors
 1. [Atom](https://atom.io/)

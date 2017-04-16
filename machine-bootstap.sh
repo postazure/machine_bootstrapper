@@ -20,6 +20,7 @@ gem install bundler
 # Install languages
 brew cask install java
 brew install node
+brew install postgresql; brew services start postgresql
 
 # Install Applications
 brew cask install iterm2
