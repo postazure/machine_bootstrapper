@@ -26,6 +26,7 @@ brew install postgresql; brew services start postgresql
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install shiftit
+brew cask install screenhero
 
 brew install Caskroom/versions/alfred2
 brew cask install alfred2
@@ -37,6 +38,9 @@ brew cask install intellij-idea-ce
 # macOS Settings
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
 defaults write -g KeyRepeat -int 2 # normal minimum is 2 (30 ms)
+
+# Configure Finder
+defaults write com.apple.Finder FXPreferredViewStyle Nlsv;killall Finder
 
 # Configure Dock
 brew install dockutil

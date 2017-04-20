@@ -22,6 +22,7 @@ After running you will need to at least do the following
 ### System Preferences
 1. Dock - Removes items, auto hide, shrinks and relocate to right side of screen
 1. KeyRepeat - Increases key repeat speed
+1. Finder - Open in list view by default
 
 ### Language Support
 1. Ruby - Installs [rbenv](https://github.com/rbenv/rbenv), ruby 2.4.x and bundler
@@ -38,6 +39,7 @@ After running you will need to at least do the following
 1. Google Chrome
 1. Shiftit
 1. Alfred2
+1. Screenhero
 
 ### Other
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - Installs and configures oh-my-zsh shell, and installs [plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
