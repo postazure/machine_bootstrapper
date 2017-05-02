@@ -27,13 +27,13 @@ brew cask install iterm2
 brew cask install google-chrome
 brew cask install shiftit
 brew cask install screenhero
-
-brew install Caskroom/versions/alfred2
-brew cask install alfred2
+brew install Caskroom/versions/alfred2 && brew cask install alfred2
 
 # Install Editors
 brew cask install atom
 brew cask install intellij-idea-ce
+# brew cask install RubyMine
+brew cask install webstorm
 
 # macOS Settings
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
@@ -52,3 +52,7 @@ killall Dock
 
 # Add global gitignore
 cp ./.gitignore ~/.gitignore
+
+# Global node modules
+npm install serverless -g
+npm install -g create-react-app
