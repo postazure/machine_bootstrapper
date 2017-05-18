@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+xcode-select --install
 
 mkdir ~/workspace
 
@@ -16,6 +17,9 @@ echo 'eval "$(rbenv init -)" # Load rbenv automatically' >> ~/.zshrc
 rbenv install 2.4.1
 rbenv global 2.4.1
 gem install bundler
+
+# tools
+brew install nmap #network mapping tool
 
 # Install languages
 brew cask install java
