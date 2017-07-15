@@ -56,6 +56,7 @@ killall Dock
 
 # Add global gitignore
 cp ./.gitignore ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
 
 # Global node modules
 npm install serverless -g
