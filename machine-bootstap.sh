@@ -20,6 +20,7 @@ gem install bundler
 
 # tools
 brew install nmap #network mapping tool
+brew install watch
 
 # Install languages
 brew cask install java
